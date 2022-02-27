@@ -172,8 +172,7 @@ def main():
     elif args.spatialsize == 64: avgpoosize = 15
     else: print("[i] spatialsize not supported")
     psize = args.spatialsize // avgpoosize
-    # model = HOUR.hourglass(n_bands, num_classes, avgpoosize)
-    model = csrnet.CSRNet(args.crf, args.crf_channel, args.depth, args.alpha, num_classes, n_bands, avgpoosize, args.inplanes, psize, bottleneck=args.bottleneck) # for PyramidNet
+    model = csrnet.CSRNet(args.crf, args.crf_channel, args.depth, args.alpha, num_classes, n_bands, avgpoosize, args.inplanes, psize, bottleneck=args.bottleneck)
     if use_cuda: model = model.cuda()
 
     criterion = torch.nn.CrossEntropyLoss()
