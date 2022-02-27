@@ -27,5 +27,5 @@ If you find this work useful for your research, please cite:
   year={2020},
 }
 ```
-## Acknowledgement
-Our codes are inspired by [pResNet-HSI](https://github.com/mhaut/pResNet-HSI) and [DANet](https://github.com/junfu1115/DANet/)
+## Acknowledgment
+This codes are inspired by [pResNet-HSI](https://github.com/mhaut/pResNet-HSI) and [DANet](https://github.com/junfu1115/DANet/)
