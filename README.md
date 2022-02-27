@@ -17,12 +17,14 @@ Please run ```sh train.sh``` for training and testing.
 ## Citation
 If you find this work useful for your research, please cite: 
 ```
-@inproceedings{zou2021learning,
-  title={Learning To Reconstruct High Speed and High Dynamic Range Videos From Events},
-  author={Zou, Yunhao and Zheng, Yinqiang and Takatani, Tsuyoshi and Fu, Ying},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={2024--2033},
-  year={2021}
+@article{zou2020csr,
+  title={CSR-Net: Camera Spectral Response Network for Dimensionality Reduction and Classification in Hyperspectral Imagery},
+  author={Zou, Yunhao and Fu, Ying and Zheng, Yinqiang and Li, Wei},
+  journal={Remote Sensing},
+  volume={12},
+  number={20},
+  pages={3294},
+  year={2020},
 }
 ```
 ## Acknowledgement
